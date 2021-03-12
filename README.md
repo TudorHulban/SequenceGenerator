@@ -1,4 +1,8 @@
 ### Performance Results:
+Run:
+```bash
+go test -bench=.
+```
 #### With Mutexes:
 Benchmark_WMutex-8   	70632560	        16.5 ns/op	       0 B/op	       0 allocs/op
 
